@@ -1,8 +1,11 @@
+*{
+    margin: 0;
+}
 html, body{
     height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 
 }
 nav {
@@ -11,15 +14,15 @@ nav {
     width: 100%;
     z-index: 99;
     text-align: center;
-    
 }
 nav a {
     text-decoration: none;
-    color: 0,0,0,0;
+    color: #FFFFFF;
     margin-left: 30px;
     line-height: 50px;
+    
 }
-.object {
+/* .object {
     height: 100%;
     width: 100%;
     padding: 0;
@@ -27,13 +30,81 @@ nav a {
     text-align: center;
     display: table;
     padding-top: 60px;
+} */
 
+.link1 {
+    color: #FFFFFF;
+}
+.sect{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.sectOne {
+    background-image: url("../images/beach.jpeg");
+    
+}
+
+/* .beach {
+    background: url("/images/beach2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+.container {
+    content: url("../images/cwong10.jpg");
+    border-radius: 50%;
+    max-width: 20rem;
+    margin: 0 auto; 
+    border: 1px solid #f1f1f1;
+    position: relative;
+    top: 150px;
+    right: 0;
+    bottom: 12px;
+    left: 0;  
+    
+}
+.paragraph {
+    display: block;
+    max-width: 20rem;
+    margin: 0 auto;
+    position: absolute;
+    background-size: cover;
+    top: 550px;
+    right: 0;
+    bottom: 12px;
+    left: 0; 
+    color: #f1f1f1 
+    
 
 }
-.subOne {
+.downloadBtn {
+    font-size: 2rem;
+    width: 30rem;
+    height: 6.5rem;
+    background-color: #d80000;
+}
+.subSection{
+    height: 50%;
+    background-color: #009fe1;
+}
+.sectTwo {
     
+    background-image: url("/images/cwong4.jpeg");
     
-    background-color: #B4B7BA;
+}
+.calculator {
+    height: 20px;
+    width: 20px;
+}
+/* .sectTwo {
+    background-color: #f1f1f1;
     width: 100%;
     height: 50%;
     margin: 0;
@@ -41,25 +112,11 @@ nav a {
     bottom: 0;
     font-family: sans-serif;
     font-size: 50px;
-    display: table-cell;
-    vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;  
+} */
+.sectThree {
+    background-image: url("/images/cwong6.jpeg");
     
-    
-}
-.link1 {
-    color: blue;
-}
-.one{
-    background: url("/images/cwong9.jpeg") no-repeat fixed;
-    background-size: cover;
-
-}
-.two{
-    background: url("/images/cwong4.jpeg") no-repeat fixed;
-    background-size: cover;
-}
-.three{
-    background: url("/images/cwong6.jpeg")no-repeat fixed;
-    background-size: cover;
 }
 

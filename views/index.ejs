@@ -5,54 +5,58 @@
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     
     <title> Chris Portfolio </title>
-    
-    
   </head>
 
-  <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="/contact">Contact</a>
-    
-      </nav>
 
   <body>
-  
+      
+    <nav>
+      <a id="home" href="#homeSection">Home</a>
+      <a id="about" href="#aboutSection">About</a>
+      <a id="services" href="#servicesSection">Services</a>
+      <a id="contact" href="#contactSection">Contact</a>
+      <a id="portfolio" href="#">Portfolio</a>
+    </nav>
 
-    <div class="object one">
-        <h2>
-            <%= person.firstName %> <%= person.lastName %>
-          </h2>
-            
-        
-        
-    </div>
-    <div class="subOne">
-      <p>
-        
-        <h5>
-          Portfolio
-        </h5>
-        </p>
+    <div id="homeSection" class="sect sectOne">
+      <div class="beach">
       </div>
-    <div class="object two">  
+      <div class="container">
+        <div class="cwong">
+        </div>
       </div>
-      <div class="subOne">
+      <div>
+        <p class="paragraph">
+              I have completed projects using HTML5, CSS, and Javascript.  My github account consist of additional projects using languages such as NodeJS, ReactJS, MySQL, and MongoDB. I am currently learning wordpress and am in search for my next project. 
+          </p>
+        </div>
+    
+          <!-- <div>
+            <div class="downloadBtn">
+              <a href="/files/Resume_Chris.pdf" download>
+              <button id="downloadBtn">Download Resume</button>
+              </a>
+            </div>
+          </div> -->
+      </div>
+        <div id="aboutSection" class="subSection">
           <p>
-          
-           <a href="https://github.com/chrisewong/startnow-web101-san-diego-top-spots.git">Top spot</a>
-           
-            <a href="https://github.com/chrisewong/startnow-react100-change-calculator.git">Change Calculator</a>
-           
-            <a href="https://github.com/chrisewong/startnow-react100-vstda.git">VSTDA React</a>
-
-          
+            <a
+            href="https://github.com/chrisewong/startnow-web101-san-diego-top-spots.git"><img src="" >Top spot</a>
+                   
+              <a href="https://github.com/chrisewong/startnow-react100-change-calculator.git" class="calculator">Change Calculator</a>
+                   
+              <a href="https://github.com/chrisewong/startnow-react100-vstda.git">VSTDA React</a>
+            </p>
+        </div> 
+      <div id="servicesSection" class="sect sectTwo">
+      </div>
+       <div id="contactSection" class="subSection">
+       </div>
+       <div id="portfolioSection" class="sect sectThree">  
         </div>
-      <div class="object three">
-        </div>
-        
-
-  
+        <script src="../node_modules/jquery/dist/"></script>
+        <script src="../js/app.js"></script>
   </body>
 </html>
 
